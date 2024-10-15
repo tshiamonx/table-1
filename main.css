@@ -67,5 +67,5 @@ td {
   grid-template-columns: repeat(2, 68%);
   justify-content: center;
   gap: 1rem;
-  margin-right: 20px;
+  margin: 20px;
 }
