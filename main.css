@@ -56,13 +56,16 @@ td {
 .poe {
   background-color: rgb(255, 184, 255);
 }
-.start {
+.last {
+  border-collapse: collapse;
   width: 100%;
   flex: 1;
   padding: 10px;
 }
-.last {
-  border-collapse: collapse;
-
+.start {
+  display: grid;
+  grid-template-columns: repeat(2, 68%);
+  justify-content: center;
+  gap: 1rem;
   margin-right: 20px;
 }
