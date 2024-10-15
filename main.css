@@ -11,8 +11,8 @@ body {
 
 .calender {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 31.5%);
+  gap: 1rem;
   place-content: center;
 }
 
