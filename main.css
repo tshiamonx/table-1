@@ -57,13 +57,12 @@ td {
   background-color: rgb(255, 184, 255);
 }
 .start {
-  display: flex;
-
-  justify-content: space-between;
-  margin: 30px;
+  width: 100%;
+  flex: 1;
+  padding: 10px;
 }
 .last {
   border-collapse: collapse;
-  width: 100%;
+
   margin-right: 20px;
 }
