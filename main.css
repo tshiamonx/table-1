@@ -59,7 +59,7 @@ td {
   background-color: rgb(255, 184, 255);
 }
 
-.last {
+.start {
   display: grid;
   grid-template-columns: repeat(2, 66.8%);
   justify-content: center;
