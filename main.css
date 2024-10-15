@@ -1,5 +1,4 @@
 body {
-  /*background-color: black;*/
   display: grid;
   justify-content: center;
   align-items: center;
@@ -11,9 +10,8 @@ body {
 }
 
 .calender {
-  /*background-color: tomato;*/
   display: grid;
-  grid-template-columns: repeat(4, 20%);
+  grid-template-columns: repeat(4, 25%);
   gap: 2rem;
   place-content: center;
 }
@@ -58,10 +56,13 @@ td {
 .poe {
   background-color: rgb(255, 184, 255);
 }
-
 .start {
   display: grid;
-  grid-template-columns: repeat(2, 66.8%);
-  justify-content: center;
-  margin: 15px;
+  grid-template-columns: repeat(2, 60%);
+  margin: 10px;
+}
+.last {
+  border-collapse: collapse;
+  width: 70%;
+  margin-right: 5px;
 }
